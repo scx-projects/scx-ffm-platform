@@ -12,7 +12,7 @@
 
     <artifactId>scx-ffm-platform</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 
     <name>SCX FFM Platform</name>
     <url>https://github.com/scx-projects/scx-ffm-platform</url>
