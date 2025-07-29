@@ -1,6 +1,5 @@
 package cool.scx.ffm.platform.test;
 
-import cool.scx.common.os.OSHelper;
 import cool.scx.ffm.platform.win32.helper.WindowsProxyHelper;
 import org.testng.annotations.Test;
 
@@ -13,7 +12,7 @@ public class WindowsProxyHelperTest {
     @Test
     public static void test1() {
         //跳过 linux 上的测试
-        if (!OSHelper.isWindows()) {
+        if (!System.getProperty("os.name").startsWith("Windows")) {
             return;
         }
 

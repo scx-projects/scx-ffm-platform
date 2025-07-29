@@ -11,6 +11,11 @@ public class Kernel32Test {
     }
 
     public static void test1() {
+        //跳过 linux 上的测试
+        if (!System.getProperty("os.name").startsWith("Windows")) {
+            return;
+        }
+        
         var a = KERNEL32.GetStdHandle(-11);
 
         var i = new IntMapper();
