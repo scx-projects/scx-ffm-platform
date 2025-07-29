@@ -37,7 +37,7 @@ public class User32Test {
             try {
                 Thread.sleep(1);  // 等待1毫秒
             } catch (InterruptedException _) {
-                
+
             }
         }
 
