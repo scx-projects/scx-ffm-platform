@@ -75,13 +75,6 @@
             <version>${scx-ffm.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>cool.scx</groupId>
-            <artifactId>scx-common</artifactId>
-            <version>${scx-common.version}</version>
-            <scope>test</scope>
-        </dependency>
-
         <!-- TestNG 测试包 -->
         <dependency>
             <groupId>org.testng</groupId>
@@ -96,7 +89,6 @@
 
         <!-- *********************** 以下为依赖包版本 *********************** -->
         <scx-ffm.version>4.1.1</scx-ffm.version>
-        <scx-common.version>4.0.1</scx-common.version>
         <testng.version>7.10.2</testng.version>
 
     </properties>
