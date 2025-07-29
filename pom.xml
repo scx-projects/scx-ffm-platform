@@ -88,7 +88,7 @@
     <properties>
 
         <!-- *********************** 以下为依赖包版本 *********************** -->
-        <scx-ffm.version>4.1.1</scx-ffm.version>
+        <scx-ffm.version>4.1.2</scx-ffm.version>
         <testng.version>7.10.2</testng.version>
 
     </properties>
